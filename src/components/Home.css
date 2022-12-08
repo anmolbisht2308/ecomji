@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Kalam:wght@300;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:ital@1&family=Raleway:wght@200&family=Shadows+Into+Light&family=Stylish&display=swap');
+.home{
+    height: 100%;
+   
+}
+.home-header{
+    /* height: 100rem !important; */
+    font-size: 4rem;
+    /* font-family: 'Bangers', cursive;
+    text-shadow:1px 0 0 red,0 1px 0 red,-1px 0 0 red,0 -1px 0 red; */
+    text-shadow: 0 1px 0 #e4adad, 0 2px 0 #e1a6a6, 0 3px 0 #df9e9e, 0 4px 0 #dc9696, 0 5px 0 #da8f8f, 0 6px 0 #d78787, 0 7px 0 #d58080, 0 8px 0 #d27878, 0 0 5px rgba(237, 154, 154, .05), 0 -1px 3px rgba(237,154,154,.2), 0 9px 9px rgba(237,154,154, .5),0 12px 12px rgba(237, 154, 154, .5), 0 15px 15px rgba(237,154,154, .5);
+    color: black;
+    font-family: "Kanit";
+    /* transform: translateY(+50%); */
+    text-align: center;
+}
+.carousel{
+    /* height: 100rem !important; */
+}
+
+.item{
+    height: 30rem;
+    width: 100%;
+    /* width: 1000%; */
+    
+}
+.homecarousel{
+display: flex;
+flex-direction: row;
+flex: 4;
+background-color: #F8F8F8;
+
+}
+.carousel{
+    flex:3;
+}
+.sale{
+    flex:1;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow:1px 0 0 red,0 1px 0 red,-1px 0 0 red,0 -1px 0 red; 
+    color: #d58080;
+}
+.carousel button{
+    display: none;
+}
+.img-produce{
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .home-header{
+        /* height: 100rem !important; */
+        font-size: 3rem;
+   
+    }
+    .item{
+        height: 10rem;
+       
+    }
+    .homecarousel{
+        display: flex;
+        flex-direction: column;
+       border-bottom: 2px dashed black;
+       border-top: 2px dashed black;
+       padding-top: 1rem;
+        
+        }
+        .sale{
+            font-size: 2rem;
+            margin-top: -2rem;
+        }
+}

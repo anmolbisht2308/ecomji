@@ -1,0 +1,202 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  
+}
+.navbar-left img{
+    width: 4rem;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4rem; */
+    color: white !important;
+    
+}
+.navbar-right p{
+  
+    color: white;
+}
+.navbar-right p:hover{
+    color: wheat;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.navbar-right-p{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    height: 4rem !important;
+    /* gap: 2rem; */
+    /* margin-right: 1rem; */
+color: wheat;
+transition: .2s;
+}
+.navbar-right-p:hover{
+    color: white;
+}
+.navbar-right-member{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white !important;
+    font-size: 1.1rem;
+    transition: .2s;
+
+}
+.navbar-right-member:hover{
+    color: wheat !important;
+}
+
+
+.hamberger-menu{
+    display:none;
+  
+  }
+  .Side{
+    display: none;
+  
+  }
+  .kide{
+    display: none;
+   
+  }
+  .profile-mob{
+    display:none
+  }
+  .kide span{
+    color: brown;
+    margin-left: 1rem;
+
+    font-size: 1rem;
+  }
+  .navbar-right-p span{
+    color: brown;
+    font-size: 1.3rem;
+  }
+  .navbar-right-p h3{
+    color: brown;
+  }
+  p{
+    text-align: center;
+  }
+  p span{
+    border-radius: 100rem ;
+    border: 3px solid rgb(231, 12, 12);
+    background-color: yellow;
+    /* width: 3rem;
+    height: 3rem; */
+    margin-left: .5rem;
+    
+  }
+.down-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  
+}
+.down-nav button{
+  width: 4rem;
+  background-color: wheat !important;
+  color: white;
+}
+
+  @media screen and (max-width: 480px) {
+    .navbar{
+        justify-content: space-between;
+        /* width: 100%; */
+        width: 100vw;
+       
+    }
+    .navbar-right-member{
+        display: none;
+    }
+
+    .hamberger-menu{
+        display: block;
+        margin: 0 2rem 0 0;
+
+
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+      
+          }
+          .Side{
+            display: inline-block;
+          }
+          .header{
+      z-index: 31;
+          }
+          .kide{
+            display: inline-block;
+            position: fixed;
+      
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* height: 50vh; */
+            z-index: 30;
+            background-color: black;
+            /* width: 25rem; */
+            width: 55%;
+            /* margin: 180vw 2vw 0 0; */
+            height: 100%;
+            /* transition:  2s linear; */
+            transform-origin: right;
+            right: 0;
+            top: 0;
+      
+          }
+       .profile{
+        display: none;
+       }
+       
+
+       .profile-mob{
+        display:block;
+        margin: 0 1rem 0 0;
+        display: flex;
+        flex-direction: column;
+        font-size: .8rem;
+        width: 6rem;
+        flex-wrap: wrap;
+      }
+
+      
+
+
+
+}
